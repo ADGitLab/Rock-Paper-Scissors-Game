@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="score-board">
+      <img src="images/logo.svg" alt="error" />
+      <div class="score-box">
+        <p>SCORE</p>
+        <p id="score">0</p>
+      </div>
+    </div>
+
+    <div class="ply-area">
+      <img src="images/bg-triangle.svg" alt="error" class="bg" />
+      <div class="paper choice" id="paper">
+        <img src="images/icon-paper.svg" alt="error" />
+      </div>
+      <div class="scissor choice" id="scissor">
+        <img src="images/icon-scissors.svg" alt="error" />
+      </div>
+      <div class="rock choice" id="rock">
+        <img src="images/icon-rock.svg" alt="error" />
+      </div>
+    </div>
+
+    <div class="selcted-area">
+      <div class="your-pick">
+        <p id="you">YOU PICKED</p>
+        <div class="paper" id="paper1">
+          <img src="images/icon-paper.svg" alt="error" />
+        </div>
+        <div class="scissor" id="scissor1">
+          <img src="images/icon-scissors.svg" alt="error" />
+        </div>
+        <div class="rock" id="rock1">
+          <img src="images/icon-rock.svg" alt="error" />
+        </div>
+      </div>
+
+      <div class="result">
+        <p id="display">YOU LOSE</p>
+        <button id="again">PLAY AGAIN</button>
+      </div>
+
+      <div class="com-pick">
+        <p id="com">THE HOUSE PICKED</p>
+        <div class="paper" id="paper2">
+          <img src="images/icon-paper.svg" alt="error" />
+        </div>
+        <div class="scissor" id="scissor2">
+          <img src="images/icon-scissors.svg" alt="error" />
+        </div>
+        <div class="rock" id="rock2">
+          <img src="images/icon-rock.svg" alt="error" />
+        </div>
+      </div>
+    </div>
+
+    <button id="rulebtn">RULES</button>
+    <div id="rules">
+      <div class="closebtn-box">
+        <p>RULES</p>
+        <img src="images/icon-close.svg" alt="error" id="closebtn" />
+      </div>
+      <img src="images/image-rules.svg" alt="error" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
